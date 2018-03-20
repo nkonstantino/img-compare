@@ -112,5 +112,5 @@ class imgScore:
 
 # s = imgScore('/Users/nick.k/Documents/Automation/img-compare/images/', "bmp/orig.bmp", "bmp/pretest.bmp", "bmp/pubtest.bmp")
 # s = imgScore('/Users/nick.k/Documents/Automation/img-compare/images/', "jpg/orig.jpg", "jpg/pretest.jpg", "jpg/pubtest.jpg")
-s = imgScore('/home/img-compare/images/', "png/orig.png", "png/pretest.png", "png/pubtest.png")
-s.measure_images()
+# s = imgScore('/home/img-compare/images/', "png/orig.png", "png/pretest.png", "png/pubtest.png")
+# s.measure_images()

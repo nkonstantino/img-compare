@@ -7,7 +7,7 @@ class weeblyConnect:
     _jpgimg = "http://nickimagetesting.weebly.com/uploads/1/1/8/1/118138892/me-orig_orig.jpg"
     _bmpimg = "http://nickimagetesting.weebly.com/uploads/1/1/8/1/118138892/orig_orig.jpg"
 
-    _storagepath = "/Users/nick.k/Documents/Automation/img-compare/images/"
+    _storagepath = "/home/img-compare/images/"
     _pngpath = _storagepath+"png"
     _jpgpath = _storagepath+"jpg"
     _bmppath = _storagepath+"bmp"

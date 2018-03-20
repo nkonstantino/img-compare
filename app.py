@@ -8,7 +8,7 @@ from weeblyConnect import weeblyConnect
 #Separate image types to their own tables -> Adjust DBs and queries. Maybe hard swap queries, or just create a var
 
 #Setting up
-imgPath = '/Users/nick.k/Documents/Automation/img-compare/images/'
+imgPath = '/home/img-compare/images/'
 
 jpg = imgScore(imgPath, "jpg/orig.jpg", "jpg/pretest.jpg", "jpg/pubtest.jpg")
 png = imgScore(imgPath, "png/orig.png", "png/pretest.png", "png/pubtest.png")

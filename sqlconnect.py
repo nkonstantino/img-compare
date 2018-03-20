@@ -2,7 +2,7 @@ import mysql.connector
 class sqlConnect:
 
     def getResults(self, filetype):
-        cnx = mysql.connector.connect(user='root', password='',
+        cnx = mysql.connector.connect(user='root', password='Weebly123!',
                                       host='127.0.0.1',
                                       database='pic_qual')
         cursor = cnx.cursor()

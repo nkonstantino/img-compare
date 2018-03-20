@@ -16,7 +16,7 @@ class sqlConnect:
         cnx.close()
 
     def setResults(self, filetype, mse, ssim, psnr, qualscore, compare="orig"):
-        cnx = mysql.connector.connect(user='root', password='Weebly123',
+        cnx = mysql.connector.connect(user='root', password='Weebly123!',
                                       host='127.0.0.1',
                                       database='pic_qual')
         cursor = cnx.cursor()

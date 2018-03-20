@@ -17,7 +17,7 @@ sql = sqlConnect()
 wc = weeblyConnect()
 sched = BlockingScheduler()
 
-@sched.scheduled_job('interval', minutes=10)
+@sched.scheduled_job('interval', minutes=2)
 def run():
     #GET IMAGES, PUBLISH, GET IMAGES AGAIN
     wc.grabTestImages()

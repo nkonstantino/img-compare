@@ -26,6 +26,7 @@ class imgScore:
 
 
     def prep_images(self):
+        print('prepping images')
         self.origImg = cv2.imread(self.imgDir+self.origImgPath) # load image
         self.hold = cv2.imread(self.imgDir + self.origImgPath)  # hold a color version of the image
         self.origImg = cv2.cvtColor(self.origImg, cv2.COLOR_BGR2GRAY) # convert image to greyscale
@@ -39,6 +40,7 @@ class imgScore:
         self.postpubImg = cv2.imread(self.imgDir+self.postpubImgPath)  # load image
         self.postpubImg = cv2.cvtColor(self.postpubImg, cv2.COLOR_BGR2GRAY)  # convert image to greyscale
         self.postpubImg = cv2.resize(self.postpubImg, (targetW, targetH)) #scale image to original size
+        print('image prep complete')
 
 
 
@@ -110,5 +112,5 @@ class imgScore:
 
 # s = imgScore('/Users/nick.k/Documents/Automation/img-compare/images/', "bmp/orig.bmp", "bmp/pretest.bmp", "bmp/pubtest.bmp")
 # s = imgScore('/Users/nick.k/Documents/Automation/img-compare/images/', "jpg/orig.jpg", "jpg/pretest.jpg", "jpg/pubtest.jpg")
-# s = imgScore('/Users/nick.k/Documents/Automation/img-compare/images/', "png/orig.png", "png/pretest.png", "png/pubtest.png")
-# s.measure_images()
+s = imgScore('/home/img-compare/images/', "png/orig.png", "png/pretest.png", "png/pubtest.png")
+s.measure_images()

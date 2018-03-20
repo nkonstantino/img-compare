@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4041cebb-2ce3-4e39-babb-e014ea9cfb69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgScore.py" afterPath="$PROJECT_DIR$/imgScore.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqlconnect.py" afterPath="$PROJECT_DIR$/sqlconnect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weeblyConnect.py" afterPath="$PROJECT_DIR$/weeblyConnect.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +19,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.48824912">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="imgScore.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="imgScore.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/imgScore.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1530">
@@ -37,11 +33,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sqlconnect.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="sqlconnect.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sqlconnect.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -647,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqlconnect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgScore.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -664,6 +652,14 @@
             <element signature="e#1690#1995#0" expanded="false" />
             <element signature="e#2030#2196#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
